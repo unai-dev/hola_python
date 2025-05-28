@@ -97,5 +97,5 @@ print(language.upper().isupper())
 print(language.lower().islower())
 print(language.upper().islower())
 print(language.lower().isupper())
-#
+# .startswith nos verifica si la variable comienza por las letras correctas
 print(language.startswith("py"))
