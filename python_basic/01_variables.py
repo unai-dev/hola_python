@@ -21,7 +21,7 @@ print("Este es el valor de:", my_bool_variable)
 print(len(my_string_variable))
 
 # Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
-name, surname, alias, age = "Brais", "Moure", 'MoureDev', 35
+name, surname, alias, age = "Unai", "Villar", 'UnaiDev', 17
 print("Me llamo:", name, surname, ". Mi edad es:",
       age, ". Y mi alias es:", alias)
 
@@ -32,8 +32,8 @@ print(name)
 print(age)
 
 # Cambiamos su tipo
-name = 35
-age = "Brais"
+name = 14
+age = "hola"
 print(name)
 print(age)
 
