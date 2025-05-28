@@ -26,9 +26,3 @@ Está pensado como una introducción práctica para aplicar lo aprendido y explo
 ⚠️ **No se utilizan frameworks complicados**, lo que lo hace más accesible para quienes están aprendiendo.
 
 ---
-
-## 🚀 ¿Cómo usarlo?
-
-1. 📥 Clona el repositorio:
-   ```bash
-   git clone https://github.com/unai-dev/hola_python.git
