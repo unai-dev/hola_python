@@ -1,13 +1,16 @@
 ### Tuples ###
 
 # nombramos a la tupla
+# una tupla vacia se define con ()
 my_tuple = tuple()
 my_other_tuple = ()
 # asignamos los valores de la tupla
 my_tuple = (17, 1.74, "Unai", "Villar")
+my_other_tuple = (45, 9.0, "Pichu")
 # imprimos la tupla
 print(my_tuple)
 print(type(my_tuple)) 
+print(my_other_tuple)
 
 print(my_tuple[0])
 print(my_tuple[-1])
@@ -24,7 +27,7 @@ print(my_tuple.index("Unai"))
 # a diferencia de las listas las tuplas son inmutables, basicamente no se pueden modificar o manipular
 #my_tuple[1] = 1.90 IndexError
 
-# las tuplas no son mutables pero podemos sumarlas
+# las tuplas no son mutables pero podemos sumarlas(concatenar) al sumarlas se crea una nueva con todos los elementos
 my_sum_tuple = my_tuple + my_other_tuple
 print(my_sum_tuple)
 
@@ -54,5 +57,6 @@ print(type(my_tuple))
 #del my_tuple
 #print(my_tuple)
 
-del my_tuple[2]
-print(my_tuple)
+# tampoco podemos borrar un elemento en concreto ya que las tuplas son inmutables
+#del my_tuple[2]
+#print(my_tuple)
