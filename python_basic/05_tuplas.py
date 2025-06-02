@@ -31,6 +31,7 @@ print(my_tuple.index("Unai"))
 my_sum_tuple = my_tuple + my_other_tuple
 print(my_sum_tuple)
 
+# esto es un rebanado donde seleciona los valores del indice que indiques
 print(my_sum_tuple[3:6])
 
 # de esta manera cambiamos una tupla a una lista
